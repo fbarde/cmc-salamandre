@@ -3,7 +3,7 @@ Computational Motor Control of Salamandra Robot.
 
 **Date:** Feb-June 2022\
 **Course:** CS-432 - Computational Motor Control (Prof. Auke Ijspeert)\
-**Collaborators:** Flore Barde, Jeannette Gommendy, Louise Genoud\
+**Collaborators:** Flore Barde, Jeannette Gommendy, Louise Genoud
 
 ## General aim of the code
 
