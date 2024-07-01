@@ -1,0 +1,43 @@
+digraph G {
+    graph[rankdir=LR, center=true]
+    node [
+          color="black",
+          fontsize=20,
+          shape=box
+          ]
+
+    "project1.py"->"run_network.py"
+    "project1.py"->"exercise_all.py"
+    "project1.py"->"plot_results.py"
+
+    "exercise_all.py"->"exercise_example.py"
+    "exercise_all.py"->"exercise_8b.py"
+    "exercise_all.py"->"exercise_8b.py"
+    "exercise_all.py"->"exercise_8c.py"
+    "exercise_all.py"->"exercise_8d.py"
+    "exercise_all.py"->"exercise_8e.py"
+    "exercise_all.py"->"exercise_8f.py"
+
+    "run_network.py"->"network.py"
+    "run_network.py"->"simulation_parameters.py"
+    "run_network.py"->"salamandra_sim/data.py"
+
+    "network.py"->"robot_parameters.py"
+
+    "exercise_example.py"->"salamandra_sim/simulation.py"
+    "exercise_8b.py"->"salamandra_sim/simulation.py"
+    "exercise_8c.py"->"salamandra_sim/simulation.py"
+    "exercise_8d.py"->"salamandra_sim/simulation.py"
+    "exercise_8e.py"->"salamandra_sim/simulation.py"
+    "exercise_8f.py"->"salamandra_sim/simulation.py"
+    "exercise_8g.py"->"salamandra_sim/simulation.py"
+
+    "salamandra_sim/simulation.py"->"network.py"
+    "salamandra_sim/simulation.py"->"salamandra_sim/options.py"
+    "salamandra_sim/simulation.py"->"salamandra_sim/data.py"
+    "salamandra_sim/simulation.py"->"salamandra_sim/controller.py"
+    "salamandra_sim/simulation.py"->"salamandra_sim/callbacks.py"
+    "salamandra_sim/simulation.py"->"salamandra_sim/camera.py"
+
+    color=black;
+}
